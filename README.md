@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# HumanizeText.ai 🚀
 
-# Run and deploy your AI Studio app
+**HumanizeText.ai** is a professional-grade, browser-based tool designed to detect AI-generated text and "humanize" it to bypass common detection algorithms. It uses advanced linguistic heuristics to analyze writing patterns and provides localized rewriting to make text feel more natural and human-like.
 
-This contains everything you need to run your app locally.
+## 🌟 Features
 
-View your app in AI Studio: https://ai.studio/apps/cb0241c1-e1ad-45c2-8bfc-25b2e7712be5
+- **AI Detection Score**: Get an instant probability score (0-100%) of how likely your text was written by an AI.
+- **Factor Analysis**: Deep dive into 8 different linguistic factors including Sentence Uniformity, Vocabulary Diversity, Transition Overuse, and Burstiness.
+- **Smart Humanizer**: One-click text transformation that adjusts syntax, replaces robotic clichés, and adds human-like variations.
+- **Sentence Highlighting**: Visual heatmap showing which specific sentences in your text are triggering AI detections.
+- **100% Private**: All processing happens locally in your browser. Your text never leaves your device.
+- **SEO Optimized**: Fully indexed and discoverable via Google Search Console.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **React 19** & **Vite**
+- **Tailwind CSS 4.0** for modern, glassmorphic styling.
+- **Framer Motion** for smooth, interactive animations.
+- **Lucide React** for professional iconography.
 
+## 🚀 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v20 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/scsbsb/HumanizeText.ai.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## 📜 Privacy & Terms
+
+HumanizeText.ai values your privacy. No data is sent to servers, and no tracking cookies are used. The tool is designed for educational and professional writing enhancement purposes.
+
+## 📄 License
+
+This project is licensed under the Apache-2.0 License.
+
+---
+Made with ❤️ by [scsbsb](https://github.com/scsbsb)
