@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "How accurate is the AI detection?",
-    a: "It's an advanced heuristic model. While it's highly accurate for identifying general AI patterns from models like GPT-4 or Claude, it's not foolproof. We recommend using it as a guide to see which parts of your text feel 'flat' or 'robotic'."
+    a: "It's an advanced heuristic model. While it's highly accurate for identifying general AI patterns from models like GPT, Gemini and/or Claude, it's not foolproof. We recommend using it as a guide to see which parts of your text feel 'flat' or 'robotic'."
   },
   {
     q: "Does it work with ChatGPT, Claude, and Gemini text?",
