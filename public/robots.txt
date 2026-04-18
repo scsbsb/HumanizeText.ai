@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://scsbsb.github.io/HumanizeText.ai/sitemap.xml
