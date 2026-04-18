@@ -461,6 +461,46 @@ export default function App() {
               ))}
             </div>
           </section>
+
+          {/* PRIVACY & TERMS */}
+          <section id="privacy" className="max-w-3xl mx-auto mb-24">
+            <h3 className="text-3xl font-black text-center mb-12">Privacy & Transparency</h3>
+            <div className="glass p-8 md:p-12 rounded-[2rem] space-y-8">
+              <div className="space-y-4">
+                <h4 className="text-xl font-bold flex items-center gap-2 text-primary-purple">
+                  <CheckCircle2 className="w-5 h-5" />
+                  Your Data Stays With You
+                </h4>
+                <p className="text-white/60 leading-relaxed">
+                  Unlike many other "AI Humanizers" that send your sensitive text to a central server, 
+                  <strong> HumanizeText.ai performs all analysis and rewriting directly in your browser.</strong> 
+                  Your text never leaves your device and is never stored, logged, or shared.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-white/5">
+                <div className="space-y-3">
+                  <h5 className="font-bold text-white/90">Zero Tracking</h5>
+                  <p className="text-sm text-white/40">
+                    We do not use tracking cookies or collect personal identification. We value your intellectual property.
+                  </p>
+                </div>
+                <div className="space-y-3">
+                  <h5 className="font-bold text-white/90">No AI Training</h5>
+                  <p className="text-sm text-white/40">
+                    Since we don't store your data, it's impossible for us (or anyone else) to use your writing to train future AI models.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white/5 p-6 rounded-2xl">
+                <p className="text-xs text-white/40 italic">
+                  Note: By using this tool, you agree that you are responsible for the legal and ethical use of the generated content. 
+                  Always verify important facts as AI-assisted humanization can sometimes subtly change meaning.
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
 
